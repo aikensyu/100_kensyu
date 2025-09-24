@@ -1,1 +1,1 @@
-# bivecodingとは
+# vibecodingとは
