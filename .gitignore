@@ -1,1 +1,4 @@
 promptlog.txt
+.DS_Store
+.gitignore
+100_kadai_sample/secrets/service_account.json

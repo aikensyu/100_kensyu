@@ -1,0 +1,25 @@
+{
+  "spreadsheet_id": "",
+  "service_account_file": "01_codex/secrets/service_account.json",
+  "ranges": {
+    "company_names": "'結果'!A2:A",
+    "search_prompt_template": "'企業検索prompt'!A2",
+    "message_prompt_template": "'フォーム文prompt'!A2",
+    "business_info": "'自社情報'!A2"
+  },
+  "output": {
+    "sheet_name": "結果",
+    "start_row": 2
+  },
+  "openai": {
+    "api_key_env": "OPENAI_API_KEY",
+    "model": "gpt-5",
+    "max_tokens": 5000
+  },
+  "anthropic": {
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "model": "claude-opus-4-1-20250805",
+    "max_tokens": 5000
+  },
+  "request_interval": 1.0
+}
